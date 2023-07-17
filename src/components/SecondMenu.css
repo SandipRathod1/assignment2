@@ -1,0 +1,125 @@
+h2 {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 70;
+}
+
+h1,
+h2,
+h3:hover {
+  cursor: pointer;
+}
+
+.main-nav-right1:hover {
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Cal;
+  font-weight: 500;
+}
+
+.main1 {
+  margin-top: 50px;
+  width: 100%;
+  height: 50vh;
+}
+
+.main-nav1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.main-nav-left1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.main-nav-right1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.main-one1 {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 4px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.images1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1px 1px 2px 1px #00000033;
+  border-radius: 20px;
+}
+
+.images1 img {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 150px;
+  padding: 25px;
+}
+
+.main-one1 .images1:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .main1 {
+    width: 100%;
+    height: 100%;
+  }
+  .images1 {
+    margin-top: 20px;
+  }
+  .main-nav-left1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .main-nav-right1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  .main-nav-left1 h3 {
+    width: 60px;
+    font-size: 15px;
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .main-nav-right1 h3 {
+    font-size: 15px;
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
